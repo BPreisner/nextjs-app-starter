@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Jest
+.jest-cache
+test-report.html
+
+# Build
+dist/
+
+# Variables
+.env
+
+# Logs
+logs
+*.log

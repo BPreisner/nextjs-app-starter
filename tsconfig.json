@@ -1,0 +1,39 @@
+{
+   "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "jsx": "preserve",
+      "lib": ["dom", "dom.iterable", "es2017", "es6"],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noEmit": true,
+      "noErrorTruncation": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "paths": {
+         "~/*": ["./*"]
+      },
+      "plugins": [
+         {
+            "name": "typescript-styled-plugin"
+         }
+      ],
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "resolveJsonModule": true,
+      "rootDir": ".",
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "target": "esnext"
+   },
+   "include": ["src", "server"],
+   "exclude": ["**/*.spec.ts", "**/*.spec.tsx"]
+}
